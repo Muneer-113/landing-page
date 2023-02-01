@@ -1,0 +1,75 @@
+body{
+    background: url(www.jpg);
+    background: cover;
+    background-repeat: no-repeat;
+    background-size: 2000px;
+}
+
+nav{
+    height: 100px;
+    width: 100s;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+color: #ffff;                  
+align-items: center;
+
+}
+.Logo img{
+ position: relative;
+    width: 100%;
+}
+.Container a{
+    text-decoration: none;
+    color:#ffff;
+    padding: 20px 30px;
+    font-size: 20px;
+}
+.register a{
+    text-decoration: none;
+    color:#ffff;
+    font-size: 20px;
+    border-radius: 8px;
+    background: indianred;
+    padding: 10px 20px;
+    
+}
+.register a:hover{
+    background: transparent;
+
+}
+.Text{
+    color: #ffff;
+}
+.Text a{
+    text-decoration: none;
+    color: #ffff;
+    border-radius: 6px;
+    font-size: 20px;
+    background: indianred;
+    padding: 5px 10px;
+    text-align: center;
+    align-items: center;
+  
+
+}
+.Text a:hover{
+    background: transparent;
+
+}
+.Text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 650px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+}
+.Text span{
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+.Text h1{
+    font-size: 3.2em;
+}
